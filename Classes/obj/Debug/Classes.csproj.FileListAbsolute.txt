@@ -1,0 +1,9 @@
+F:\springSemester\cSharp\study\Classes\Classes\bin\Debug\Classes.exe.config
+F:\springSemester\cSharp\study\Classes\Classes\bin\Debug\Classes.exe
+F:\springSemester\cSharp\study\Classes\Classes\bin\Debug\Classes.pdb
+F:\springSemester\cSharp\study\Classes\Classes\obj\Debug\Classes.csprojResolveAssemblyReference.cache
+F:\springSemester\cSharp\study\Classes\Classes\obj\Debug\Classes.Form1.resources
+F:\springSemester\cSharp\study\Classes\Classes\obj\Debug\Classes.Properties.Resources.resources
+F:\springSemester\cSharp\study\Classes\Classes\obj\Debug\Classes.csproj.GenerateResource.Cache
+F:\springSemester\cSharp\study\Classes\Classes\obj\Debug\Classes.exe
+F:\springSemester\cSharp\study\Classes\Classes\obj\Debug\Classes.pdb
