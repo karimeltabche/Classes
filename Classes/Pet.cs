@@ -26,6 +26,12 @@ namespace Classes
                 _name = value; 
             }
         }
+        
+        public Pet(string n)  ///Method signature
+        {
+            _name = n;
+        }
+        
 
       /*  public string getName()
         {

@@ -22,11 +22,14 @@ namespace Classes
             lstName.Items.Clear();
 
             Pet myDog = new Pet();
+            Pet myNewDog = new Pet(txtName.Text);
 
             lstName.Items.Add(myDog.Name);
             myDog.Name=txtName.Text;
             lstName.Items.Add(myDog.Name);
 
+            lstName.Items.Add(myNewDog.Name);
+            
         }
     }
 }
