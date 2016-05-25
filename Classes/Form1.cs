@@ -29,6 +29,7 @@ namespace Classes
             lstName.Items.Add(myDog.Name);
 
             lstName.Items.Add(myNewDog.Name);
+
             
         }
     }
