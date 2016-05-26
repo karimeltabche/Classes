@@ -31,6 +31,8 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.lstName = new System.Windows.Forms.ListBox();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.btnAddCat = new System.Windows.Forms.Button();
+            this.btnDisplayCat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtName
@@ -58,11 +60,33 @@
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
+            // btnAddCat
+            // 
+            this.btnAddCat.Location = new System.Drawing.Point(181, 92);
+            this.btnAddCat.Name = "btnAddCat";
+            this.btnAddCat.Size = new System.Drawing.Size(75, 23);
+            this.btnAddCat.TabIndex = 3;
+            this.btnAddCat.Text = "Add Cat";
+            this.btnAddCat.UseVisualStyleBackColor = true;
+            this.btnAddCat.Click += new System.EventHandler(this.btnAddCat_Click);
+            // 
+            // btnDisplayCat
+            // 
+            this.btnDisplayCat.Location = new System.Drawing.Point(181, 147);
+            this.btnDisplayCat.Name = "btnDisplayCat";
+            this.btnDisplayCat.Size = new System.Drawing.Size(75, 23);
+            this.btnDisplayCat.TabIndex = 4;
+            this.btnDisplayCat.Text = "Display Cat";
+            this.btnDisplayCat.UseVisualStyleBackColor = true;
+            this.btnDisplayCat.Click += new System.EventHandler(this.btnDisplayCat_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(287, 262);
+            this.Controls.Add(this.btnDisplayCat);
+            this.Controls.Add(this.btnAddCat);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lstName);
             this.Controls.Add(this.txtName);
@@ -78,6 +102,8 @@
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.ListBox lstName;
         private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnAddCat;
+        private System.Windows.Forms.Button btnDisplayCat;
     }
 }
 

@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace Classes
 {
+
     public partial class Form1 : Form
     {
+        List<Pet> catList = new List<Pet>();
         public Form1()
         {
             InitializeComponent();
@@ -31,6 +33,20 @@ namespace Classes
             lstName.Items.Add(myNewDog.Name);
 
             
+        }
+
+        private void btnAddCat_Click(object sender, EventArgs e)
+        {
+            Pet aCat = new Pet(txtName.Text);
+            catList.Add(aCat);
+        }
+
+        private void btnDisplayCat_Click(object sender, EventArgs e)
+        {
+            foreach (Pet cat in catList)
+            {
+                lstName.Items.Add(cat.Name);
+            }
         }
     }
 }
